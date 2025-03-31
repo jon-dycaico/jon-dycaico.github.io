@@ -8,14 +8,14 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+#site_theme               : "default" "minimal-mistakes"
 title                    : "Jon Dycaico"
 title_separator          : "-"
 name                     : &name "Jon Dycaico"
 description              : &description "personal description"
-url                      : https://jdycaico.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : "https://jon-dycaico.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "jon-dycaico.github.io" #"academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -297,7 +297,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago #Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
