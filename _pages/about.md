@@ -14,4 +14,4 @@ What if [Applied Cryptography](https://crypto.stanford.edu/) offered ways out? W
 
 I believe Crypto (shorthand for Applied Cryptography), is the most promising field in computing. AI, left unchecked, will unleash a flood of endless novelty, exacerbating society's worst trends. But Crypto offers the opportunity to build highly-robust systems that can ensure human flourishing into the future.
 
-![](images/beamemitter.jpg)
+![](images/forerunner-beam-emitter.jpg)
