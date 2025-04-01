@@ -1,11 +1,11 @@
 ---
-title: "AWS Compliance Audit via Gatekeeper"
-excerpt: "Built innovative auditing solution to bypass sensitive security system<br/><img src='/images/nasa-gate.jpg'>"
+title: "OCTOPUS"
+excerpt: "Experimental System LLM for security, reliability, and continous optimization to user needs<br/><img src='/images/36d6a82041234630b833ef5eb0537b46-734004734.jpg'>"
 collection: portfolio
 ---
 
-Gatekeeper is a custom Okta tool that manages employee access to their AWS environments. We were asked to perform thorough evidence collection for an IGA audit across multiple platforms, and I took on the AWS portion, which was the hardest due to Gatekeeper. I used Python scripts to reproducibly, and with a high degree of assurance, pull hundreds of Users, with their Groups, Permissions, and related data from our AWS environment. 
+I was enrolled in a AI Engineering bootcamp that focused mostly on building Rapid MVPs of Frontend applications in React. As I have never been interested in frontend development, I kept myself going by working on this side project in my free time.
 
-The task was made particularly difficult due to the behavior of Gatekeeper, which would ban you if you used a library such as multiprocessing or threading, or "rocked the boat" in any way. Thus, a MongoDB database was used so that the application could be run idempotently, collecting only new data, until all the data was collected for the report.
+OCTOPUS is a multi-component system with a local AI model at its core, and a set of system services as its appendages. It was initially concieved to fool and disrupt malware and otherwise protect the host system, but the vision evolved over time to a holistic AI-Engineering Platform, wherein OCTOPUS learned from user interaction with the OS and supported the user's activities, actively and dynamically. I was also experimenting with a new approach to storing and indexing Markdown files on a user's machine, such that manual file management would no longer be an issue.
 
-The audit went smoothly, and the scripts are stored safely in a GitHub repo for the next time this task comes up.
+Essentially, OCTOPUS is a first attempt at a vision for computing wherein the "hard lines" of a traditional OS are symbiotically inhabited by a "fuzzy logic" System-LLM (see: research) such that the system is well-protected, well-maintained, and continually building itself into a better tool for the user.

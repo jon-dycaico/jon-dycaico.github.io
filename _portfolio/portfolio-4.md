@@ -1,9 +1,12 @@
 ---
-title: "Gmail Migration"
-excerpt: "Rebuilt all our Email and Directory automation against Google Workspace APIs <br/><img src='/images/google-workspace.png'>"
+title: "Spotify Playlist Analyzer"
+excerpt: "Built an API-based application to extract and sort all music genres from a user's Spotify library using Terraform, AWS, and Python<br/><img src='/images/spotify-world.png'>"
 collection: portfolio
 ---
 
-Up until this point, we had been using [Huginn's](https://github.com/huginn/huginn) native Email Agent and Email Digest Agent for all email tasks, and the Post Agent for employee info lookups, all running against Microsoft 365 APIs. Once the company decided to go with Google Workspace, it was up to me to migrate all of this logic, not only into new agents, but to design and build the new Agent classes myself. 
+When the platform owns your taste profile, how can you take it with you?
 
-This required digging into the Google Workspace APIs, setting up OIDC authentication, writing the Agent code in Rails, validating the new Agent types in our development environment, then migrating 50+ existing Agents across our Playbook infrastructure to the new models, and finally, careful validation of the resulting flows. Ongoing tuning work was required to keep our Playbooks healthy and the mail-flow reliable, but at the end of it all, we had nice, reliable Agents for our Email and Employee Lookup use cases that had the appropriate permissions in Google Workspace and were more reliable and feature-filled than the previous state. 
+This is the problem I set to out to solve with Spotify Playlist Analyzer (SPA). I had all my music in Spotify, which together constituted a "taste profile". Without such a profile, I could not easily move to other music platforms as it would take too long to discover new music and build a library.
+
+Thus, I built SPA to provide an easy solution to this problem. The user puts all of his liked songs into one large playlist, makes it public, hits the API with the URL of the playlist, and the Analyzer returns a list of genres sorted by frequency. I ended up using ECS to host the application, Jenkins for CI, and Poetry for the Python project. All infrastructure is IaC deployed via Terraform.
+
