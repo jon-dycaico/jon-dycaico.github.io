@@ -1,6 +1,6 @@
 ---
 title: "OCTOPUS"
-excerpt: "Experimental System LLM for security, reliability, and continous optimization to user needs<br/><img src='/images/36d6a82041234630b833ef5eb0537b46-734004734.jpg'>"
+excerpt: "Experimental System LLM for security, reliability, and continous optimization to user needs<br/><img src='/images/tentacle.jpg'>"
 collection: portfolio
 ---
 
