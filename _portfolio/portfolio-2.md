@@ -1,6 +1,6 @@
 ---
-title: "Impossible Okta Logins"
-excerpt: "Custom-built User Behavior Analytics solution for Impossible Travel alerts<br/><img src='/images/Impossible-Travel-Featured-Image.png'>"
+title: "Impossible Okta UBA"
+excerpt: "Custom-built User Behavior Analytics (UBA) solution for Impossible Travel alerts<br/><img src='/images/Impossible-Travel-Featured-Image.png'>"
 collection: portfolio
 ---
 

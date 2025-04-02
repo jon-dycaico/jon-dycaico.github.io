@@ -1,6 +1,6 @@
 ---
 title: "Spotify Playlist Analyzer"
-excerpt: "Built an API-based application to extract and sort all music genres from a user's Spotify library using Terraform, AWS, and Python<br/><img src='/images/spotify-world.png'>"
+excerpt: "Terraform-deployed, API-based Python application that derives music-genre taste profiles for export<br/><img src='/images/spotify-world.png'>"
 collection: portfolio
 ---
 

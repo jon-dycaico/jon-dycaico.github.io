@@ -1,6 +1,6 @@
 ---
-title: "SOAR Migration"
-excerpt: "Lead a Large Migration of all Security Automation logic into Tines SOAR<br/><img src='/images/migration.jpg'>"
+title: "SOAR Migration Leadership"
+excerpt: "Lead a Large Migration of all Security Automation logic from custom SOAR to Tines<br/><img src='/images/migration.jpg'>"
 collection: portfolio
 ---
 
